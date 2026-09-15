@@ -18,7 +18,7 @@ try:
 except Exception:
     GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
-SENTIMENT_HF_REPO = None
+SENTIMENT_HF_REPO = "mariamelkady/customer-support-sentiment"
 
 GREETING_PATTERNS = re.compile(
     r"^\s*(hi+|hello+|hey+|good\s?(morning|afternoon|evening)|thanks|thank\s?you|"
